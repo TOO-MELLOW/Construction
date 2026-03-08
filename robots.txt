@@ -1,0 +1,18 @@
+# robots.txt for M&C Enterprise
+# https://mc-enterprise.onrender.com/
+
+# Allow all search engine crawlers
+User-agent: *
+Allow: /
+
+# Block access to any admin or private paths (future-proofing)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /*.php$
+
+# Sitemap location
+Sitemap: https://mc-enterprise.onrender.com/sitemap.xml
+
+# Crawl-delay (optional - be polite to crawlers)
+Crawl-delay: 10
